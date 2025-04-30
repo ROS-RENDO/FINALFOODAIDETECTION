@@ -1,0 +1,28 @@
+names:
+- fresh apple
+- fresh banana
+- fresh bellpepper
+- fresh carrot
+- fresh cucumber
+- fresh mango
+- fresh orange
+- fresh potato
+- rotten apple
+- rotten banana
+- rotten carrot
+- rotten cucumber
+- rotten mango
+- rotten orange
+- rotten potato
+- rotten tomato
+- rottenbellpepper
+nc: 17
+roboflow:
+  license: CC BY 4.0
+  project: freshness-fruits-and-vegetables-nojcz
+  url: https://universe.roboflow.com/fruit-detection-byxkd/freshness-fruits-and-vegetables-nojcz/dataset/1
+  version: 1
+  workspace: fruit-detection-byxkd
+test: ../test/images
+train: ../train/images
+val: ../valid/images
